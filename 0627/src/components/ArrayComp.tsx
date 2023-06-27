@@ -12,9 +12,11 @@ export default function ArrayComp() {
   return (
     <div>
       <hr />
-      {listarray.map((data)=><li>
-        {data.id}:{data.input}
-      </li>)}
+      {listarray.map((data) => (
+        <li>
+          {data.id}:{data.input}
+        </li>
+      ))}
     </div>
   );
 }
